@@ -3,7 +3,7 @@
   hosts: localhost
   become: true
   vars:
-    efs_ip : "{{ lookup('env', 'EFS_IP') }}"
+    efs_ip : "YOU_EFS_IP"
     share_path: "/share"
     llm_data: "/share/llm"
     llm_tmp: "/share/tmp"
